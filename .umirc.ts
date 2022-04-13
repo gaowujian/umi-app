@@ -10,12 +10,11 @@ export default defineConfig({
       path: "/",
       component: "@/layouts/index",
       routes: [
-        { path: "/", component: "@/pages/CommonForm" },
+        { path: "/common", component: "@/pages/CommonForm" },
         { path: "/pro", component: "@/pages/ProFormComp" },
-
         { path: "/workflow", component: "@/pages/WorkflowCard" },
-
         { path: "/inter", component: "@/pages/InternationalizedComp" },
+        { path: "/*", redirect: "/common" },
       ],
     },
   ],

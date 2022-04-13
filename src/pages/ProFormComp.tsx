@@ -29,7 +29,9 @@ function ProFomComp() {
   };
   return (
     <div>
+      <h1>高级表单</h1>
       <ProForm<IFormData>
+        title="高级表单"
         onFinish={handleSubmit}
         initialValues={initialValues}
         layout="horizontal"

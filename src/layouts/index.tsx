@@ -7,7 +7,7 @@ function AppLayout(props: any) {
     <div>
       <Menu mode="horizontal">
         <Menu.Item key="home">
-          <Link to={"/"}>普通表单</Link>
+          <Link to={"/common"}>普通表单</Link>
         </Menu.Item>
         <Menu.Item key="pro">
           <Link to={"/pro"} style={{ marginLeft: "20px" }}>
